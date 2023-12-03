@@ -103,7 +103,7 @@ namespace Questao1
                     */
 
                 }
-                catch ()
+                catch (Exception ex)
                 {
                     Console.WriteLine();
                     continue;
