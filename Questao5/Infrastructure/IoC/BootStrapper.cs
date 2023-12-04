@@ -25,6 +25,8 @@ namespace Questao5.Infrastructure.IoC
 
             //Services
             services.AddScoped<IMovimentoService, MovimentoService>();
+            services.AddScoped<IContaCorrenteService, ContaCorrenteService>();
+
 
         }
     }

@@ -9,7 +9,7 @@ using Questao5.Domain.Repository;
 namespace Questao5.Api.Controllers
 {
     [ApiController]
-    [Route("movimentos")]
+    [Route("movimento")]
     [Produces("application/json")]
     public class MovimentoController : MainController
     {
